@@ -1,0 +1,92 @@
+#NeonClock{
+	width: 916px;
+	height: 200px;
+	z-index: 7;
+}
+#NeonClock2{
+	z-index: 5;
+}
+#EmptyButton{
+	width: 520px;
+	height: 200px;
+	position: absolute;
+	z-index: 10;
+}
+#NeonClock3{
+	z-index: 6;
+}
+#canvasBigBody{
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.CanvasClone{
+	position: absolute;
+	width: 916px;
+	height: 200px;
+}
+.Icons{
+	height: 80px;
+	pointer-events: none;
+	user-select: none;
+}
+body{
+	background-color: #ff990000;
+}
+#DownBody{
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+}
+
+#BottomBody{
+	display: flex;
+	background-color: #000000;
+	border: 2px solid #141414;
+	height: 40px;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+#Scheduler{
+	padding-right: 10px;
+	display: flex;
+}
+#NextSchedule{
+	width: 150px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: right;
+}
+
+
+
+.QuickLinks{
+	background-color: #232323;
+	border: 5px solid #000000;
+	border-radius: 9px;
+	display: flex;
+	height: 100px;
+}
+.LinkButton,.AppButton{
+	background-color: #232323;
+	border: 2px solid #000000;
+	width: 155px;
+	height: 100px;
+	font-size: 60px;
+	justify-content: center;
+	color:white;
+	align-items: center;
+	display: flex;
+}
+
+.LinkButton:hover,.AppButton:hover{
+	background-color: #d9a300;
+}
+
+.LinkButton:active,.AppButton:active{
+	background-color: #dbffb4;
+}

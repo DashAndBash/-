@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>바로론</title>
+	<link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+	<div id="canvasBigBody">
+		<canvas id="NeonClock"></canvas>
+		<canvas id="NeonClock2" class="CanvasClone"></canvas>
+		<canvas id="NeonClock3" class="CanvasClone"></canvas>
+		<span id="EmptyButton"></span>
+	</div>
+	<div id="DownBody">
+		<div class="QuickLinks">
+			<div class="LinkButton" data-path="https://lms.pknu.ac.kr"><img src="assets/lms.png" class="Icons"></div>
+			<div class="LinkButton" data-path="https://chatgpt.com/"><img src="assets/chatgpt.png" class="Icons"></div>
+			<div class="AppButton" data-path="C:\Program Files\Adobe\Adobe Photoshop 2020\Photoshop.exe"><img src="assets/youtube.png" class="Icons"></div>
+		</div>
+		<div class="QuickLinks">
+			<div class="AppButton" data-path="C:\Users\gusck\AppData\Local\Programs\Microsoft VS Code\Code.exe"><img src="assets/Vscode.png" class="Icons" data-path="C:\Users\gusck\AppData\Local\Programs\Microsoft VS Code\Code.exe"></div>
+			<div class="AppButton" data-path="C:\Riot Games\Riot Client\RiotClientServices.exe"><img src="assets/lol.png" class="Icons"></div>
+			<div class="AppButton" data-path="D:\steam\steam.exe"><img src="assets/steam.png"  class="Icons"></div>
+		</div>
+	</div>
+	<div id="BottomBody">
+		<div></div>
+		<div id = "Scheduler">
+			<span>다음 수업:</span>
+			<div id = "NextSchedule">다음 과목</div>
+		</div>
+	</div>
+	<script src="Neon.js"></script>
+  </body>
+</html>

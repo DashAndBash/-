@@ -1,0 +1,26 @@
+{
+  "name": "wigety",
+  "version": "1.0.0",
+  "description": "바로론",
+  "main": "main.js",
+  "author": "Chan",
+  "license": "MIT",
+  "build": {
+    "productName": "바로론",
+    "win": {
+      "icon": "assets/BubbleYuna.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^32.0.1",
+    "electron-builder": "^25.0.5"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "npm": "^10.8.2",
+    "python-shell": "^5.0.0",
+    "ref-napi": "^3.0.3"
+  }
+}
